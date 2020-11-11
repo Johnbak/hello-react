@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Ex1Style from "./components/ex1_styles";
 import CounterClassFunctionComponent from "./CounterClassFunctionComponent";
 
 export default function App() {
@@ -28,6 +29,7 @@ export default function App() {
       </button>
 
       <CounterClassFunctionComponent />
+      <Ex1Style />
     </div>
   );
 }
