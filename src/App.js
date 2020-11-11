@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import CounterClassFunctionComponent from "./CounterClassFunctionComponent";
 
 export default function App() {
   let var3 = 0;
@@ -20,11 +21,13 @@ export default function App() {
       <button
         onClick={() => {
           var3 = 10;
-          setCount(count+1)
+          setCount(count + 1);
         }}
       >
         Add
       </button>
+
+      <CounterClassFunctionComponent />
     </div>
   );
 }
