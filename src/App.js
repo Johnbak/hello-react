@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
-function App() {
+export default function App() {
+  const count = 0;
+  const var1 = "Hello";
+  const var2 = true;
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>Hi BRO : {count}</h1>
+      <h1>Hi BRO : {var1}</h1>
+      <h1>Hi BRO : {var2 && "YES"}</h1>
+      {var2 ? <h1>Yess</h1>:<h1>No</h1>}
     </div>
   );
 }
-
-export default App;
