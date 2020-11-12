@@ -31,7 +31,8 @@ export default function App() {
 
       <CounterClassFunctionComponent />
       <Ex1Style />
-      <Ex2images/>
+      <Ex2images />
+      <Ex2images image="/images/yl_fr.jpg" />
     </div>
   );
 }
