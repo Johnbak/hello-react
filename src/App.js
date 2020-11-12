@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Ex1Style from "./components/ex1_styles";
 import Ex2images from "./components/ex2_images";
+import Ex3Props from "./components/ex3_props";
 import CounterClassFunctionComponent from "./CounterClassFunctionComponent";
 
 export default function App() {
@@ -33,6 +34,7 @@ export default function App() {
       <Ex1Style />
       <Ex2images />
       <Ex2images image="/images/yl_fr.jpg" />
+      <Ex3Props count={count} color="#f99" isShowLabel={true} />
     </div>
   );
 }
